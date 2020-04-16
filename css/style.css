@@ -1,8 +1,37 @@
 @charset "utf-8";
 /* CSS Document */
 body{
-	align-content: stretch;
-	font: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	background-color: #BF8586;
+	align-content: center;
+	background-color: #D8B6B6;
+}
+h1{
+	align-content: center;
+	font-family: 'Cambria', 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+	background-color:pink;
+	text-decoration: underline;
+	font-size: 45px;
+}
+h2{
+	align-content: center;
+	font-family: Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
+	background-color:hotpink;
+	text-decoration: underline;
+	text-decoration: bold;
+	font-size: 25px;
 }
 
+h3{
+	align-content: center;
+	font-family: Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
+	background-color:red;
+	text-decoration: underline;
+	text-decoration: bold;
+	font-size: 25px;
+	
+}
+..my-class{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-decoration: bold;
+	font-size: 12px;
+	
+}
