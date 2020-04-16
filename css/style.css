@@ -1,37 +1,58 @@
 @charset "utf-8";
 /* CSS Document */
 body{
-	align-content: center;
 	background-color: #D8B6B6;
 }
 h1{
-	align-content: center;
+	text-align: center;
 	font-family: 'Cambria', 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
 	background-color:pink;
 	text-decoration: underline;
 	font-size: 45px;
+	border-style: groove;
+	border-color: blue;
 }
 h2{
-	align-content: center;
+	text-align: center;
 	font-family: Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
 	background-color:hotpink;
 	text-decoration: underline;
 	text-decoration: bold;
 	font-size: 25px;
+	border-style: ridge;
+	border-color: orange;
 }
 
 h3{
-	align-content: center;
+	text-align: center;
 	font-family: Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
 	background-color:red;
 	text-decoration: underline;
 	text-decoration: bold;
 	font-size: 25px;
+	padding: 10px;
+	border-style: double;
+	border-color: purple;
 	
 }
-..my-class{
+.my-class{
+	text-align:center;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	text-decoration: bold;
-	font-size: 12px;
+	font-size: 14px;
+	background: #F1B3B4;
+	margin: 10;
+	padding: 10px;
+	border-style: double;
+	border-color: aqua;
 	
+}
+div{
+	margin: 2px;
+	padding: 1px;
+}
+img{
+	border-color: red;
+	border-style: dashed;
+	border-width: thick;
 }
