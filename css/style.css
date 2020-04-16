@@ -2,8 +2,11 @@
 /* CSS Document */
 body{
 	background-color: #D8B6B6;
+	margin: 0px;
+	padding: 0px;
 }
 h1{
+	background-image: ;
 	text-align: center;
 	font-family: 'Cambria', 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
 	background-color:pink;
@@ -48,7 +51,7 @@ h3{
 	
 }
 div{
-	margin: 2px;
+	margin: 1px;
 	padding: 1px;
 }
 img{
